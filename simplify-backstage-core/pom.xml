@@ -3,28 +3,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.3.4.RELEASE</version>
+        <groupId>com.shj1995.simplifybackstage</groupId>
+        <artifactId>simplify-backstage-parent</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.shj1995.simplifybackstage</groupId>
-    <artifactId>simplify-backstage-parent</artifactId>
+    <artifactId>simplify-backstage-core</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>simplify-backstage</name>
-    <packaging>pom</packaging>
+    <name>simplify-backstage-core</name>
     <description>Demo project for Spring Boot</description>
 
-    <modules>
-        <module>simplify-backstage-core</module>
-        <module>simplify-backstage-toolkit</module>
-        <module>simplify-backstage-demo</module>
-        <module>simplify-backstage-user-system</module>
-        <module>simplify-backstage-datamodel</module>
-    </modules>
     <properties>
         <java.version>1.8</java.version>
-        <checkstyle.config.location>checkstyle.xml</checkstyle.config.location>
     </properties>
 
     <dependencies>
