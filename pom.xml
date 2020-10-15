@@ -23,6 +23,7 @@
         <module>simplify-backstage-dynamic-model</module>
     </modules>
     <properties>
+        <project.encoding>UTF-8</project.encoding>
         <java.version>1.8</java.version>
         <checkstyle.config.location>checkstyle.xml</checkstyle.config.location>
     </properties>
@@ -52,7 +53,25 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <encoding>${project.encoding}</encoding>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
+
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/shj1995/simplify-backstage</url>
+        </repository>
+    </distributionManagement>
 
 </project>
