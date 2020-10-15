@@ -20,7 +20,7 @@
         <module>simplify-backstage-toolkit</module>
         <module>simplify-backstage-demo</module>
         <module>simplify-backstage-user-system</module>
-        <module>simplify-backstage-datamodel</module>
+        <module>simplify-backstage-dynamic-model</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

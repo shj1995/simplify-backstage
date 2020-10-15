@@ -8,9 +8,9 @@
         <version>0.0.1-SNAPSHOT</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <artifactId>simplify-backstage-datamodel</artifactId>
+    <artifactId>simplify-backstage-dynamic-model</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>simplify-backstage-datamodel</name>
+    <name>simplify-backstage-dynamic-model</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

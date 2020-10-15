@@ -1,0 +1,20 @@
+name: Java CI with Maven
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:   # 下列文件的变更不触发部署，可以自行添加
+      - README.md
+      - LICENSE
+      - .gitignore
+      - docs
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # 检出代码,官方的脚本
+      - uses: actions/checkout@v2
+      # 设置环境
+      -
+

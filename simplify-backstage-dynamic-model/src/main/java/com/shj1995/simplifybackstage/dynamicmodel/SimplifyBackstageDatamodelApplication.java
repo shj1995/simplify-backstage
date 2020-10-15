@@ -1,4 +1,4 @@
-package com.shj1995.simplifybackstage.datamodel;
+package com.shj1995.simplifybackstage.dynamicmodel;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
