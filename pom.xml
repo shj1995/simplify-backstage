@@ -147,7 +147,7 @@
         <repository>
             <id>github</id>
             <name>GitHub OWNER Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/shj1995/simplify-backstage</url>
+            <url>https://maven.pkg.github.com/shj1995/maven-repository</url>
         </repository>
     </distributionManagement>
 
