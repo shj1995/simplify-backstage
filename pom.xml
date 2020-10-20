@@ -144,6 +144,12 @@
 
 
     <distributionManagement>
+        <snapshotRepository>
+            <id>github</id>
+            <name>GitHub snapshot</name>
+            <url>https://maven.pkg.github.com/shj1995/simplify-backstage/</url>
+            <uniqueVersion>true</uniqueVersion>
+        </snapshotRepository>
         <repository>
             <id>github</id>
             <name>GitHub OWNER Apache Maven Packages</name>
