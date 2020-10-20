@@ -5,10 +5,10 @@
     <parent>
         <groupId>com.shj1995.simplifybackstage</groupId>
         <artifactId>simplify-backstage</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.1</version>
     </parent>
     <artifactId>simplify-backstage-user-system</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>${parent.version}</version>
     <name>simplify-backstage-usersystem</name>
     <description>Demo project for Spring Boot</description>
 
